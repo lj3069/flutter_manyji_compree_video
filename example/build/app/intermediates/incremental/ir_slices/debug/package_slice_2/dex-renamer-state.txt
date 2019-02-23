@@ -1,4 +1,0 @@
-#Fri Feb 22 14:12:03 CST 2019
-base.0=E\:\\AS_workspace\\flutter_manyji_deviceinfo\\example\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\2
-path.0=classes.dex
-renamed.0=classes.dex
