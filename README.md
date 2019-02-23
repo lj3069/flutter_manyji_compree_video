@@ -13,14 +13,14 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.io/docs), which offers tutorials, 
 samples, guidance on mobile development, and a full API reference.
 
+引入方式
 
-目前只支持本地引用  本地引用引用方式
-pubspec.yaml文件下
-dev_dependencies：下
-添加
 
-flutter_manyji_deviceinfo:
-    path: ../flutter_manyji_deviceinfo   ../flutter_manyji_deviceinfo为你放置当前包的相对路径或绝对路径
+pubspec.yaml文件
+dependencies结点下引入
+  flutter_manyji_deviceinfo:
+      git:
+        url: https://github.com/lj3069/flutter_manyji_deviceinfo.git
 	
 	
 	
