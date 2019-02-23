@@ -17,7 +17,9 @@ samples, guidance on mobile development, and a full API reference.
 
 
 pubspec.yaml文件
+
 dependencies结点下引入
+
   flutter_manyji_deviceinfo:
       git:
         url: https://github.com/lj3069/flutter_manyji_deviceinfo.git
