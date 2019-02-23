@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_manyji_deviceinfo (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `.symlinks/flutter/ios`)
+  - flutter_manyji_deviceinfo (from `.symlinks/plugins/flutter_manyji_deviceinfo/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  flutter_manyji_deviceinfo:
+    :path: ".symlinks/plugins/flutter_manyji_deviceinfo/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 9d0fac939486c9aba2809b7982dfdbb47a7b0296
+  flutter_manyji_deviceinfo: 9eb9abc14466e74860393a183cece8c024121fc0
+
+PODFILE CHECKSUM: aff02bfeed411c636180d6812254b2daeea14d09
+
+COCOAPODS: 1.5.3

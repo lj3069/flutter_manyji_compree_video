@@ -1,0 +1,26 @@
+{
+  "name": "flutter_manyji_deviceinfo",
+  "version": "0.0.1",
+  "summary": "A Flutter plugin for get device info in iOS and Android",
+  "description": "A Flutter plugin for get device info in iOS and Android",
+  "homepage": "http://example.com",
+  "license": {
+    "file": "../LICENSE"
+  },
+  "authors": {
+    "Your Company": "email@example.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": "Classes/**/*",
+  "public_header_files": "Classes/**/*.h",
+  "dependencies": {
+    "Flutter": [
+
+    ]
+  },
+  "platforms": {
+    "ios": "8.0"
+  }
+}
