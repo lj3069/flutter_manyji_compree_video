@@ -1,1 +1,0 @@
-../../../../.symlinks/plugins/flutter_manyji_deviceinfo/ios/Classes/FlutterManyjiDeviceinfoPlugin.h
