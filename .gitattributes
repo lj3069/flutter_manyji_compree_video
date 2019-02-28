@@ -1,3 +1,5 @@
 *.dart linguist-language=Dart
 *.md linguist-language=Dart
 *.java linguist-language=Dart
+*.m linguist-language=Dart
+*.h linguist-language=Dart
