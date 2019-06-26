@@ -43,7 +43,7 @@ public class FlutterManyjiDeviceinfoPlugin implements MethodCallHandler,PluginRe
   }
 
   private static final String IMSI = "imsi",IMEI="imei",ANDROID_ID="android_id",MODEL="model",BRAND="brand",OS_VERSION="os_version",
-          OS_CODE="os_code",APP_CODE="app_code",APP_VERSION="app_version",NET_TYPE="net_type",RESOLUTION="resolution",WIFI_MAC="mac",
+          OS_CODE="os_code",APP_CODE="app_code",APP_VERSION="app_version",NET_TYPE="net_Type",RESOLUTION="resolution",WIFI_MAC="mac",
           APP_NAME="app_name",PACKAGE="package";
 
 
