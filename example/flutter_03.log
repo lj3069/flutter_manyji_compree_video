@@ -1,0 +1,68 @@
+Flutter crash report; please file at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter --suppress-analytics build bundle --target-platform=ios --target=/Users/zhangwei/Work/device/example/lib/main.dart --debug --depfile=build/snapshot_blob.bin.d --asset-dir=/Users/zhangwei/Work/device/example/ios/Flutter/flutter_assets
+
+## exception
+
+FileSystemException: FileSystemException: Cannot open file, path = 'build/app.dill' (OS Error: No such file or directory, errno = 2)
+
+```
+#0      _File.open.<anonymous closure> (dart:io/file_impl.dart:368:9)
+#1      _rootRunUnary (dart:async/zone.dart:1132:38)
+#2      _CustomZone.runUnary (dart:async/zone.dart:1029:19)
+#3      _FutureListener.handleValue (dart:async/future_impl.dart:129:18)
+#4      Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart:642:45)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:671:32)
+#6      Future._completeWithValue (dart:async/future_impl.dart:486:5)
+#7      Future._asyncComplete.<anonymous closure> (dart:async/future_impl.dart:516:7)
+#8      _rootRun (dart:async/zone.dart:1124:13)
+#9      _CustomZone.run (dart:async/zone.dart:1021:19)
+#10     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:947:23)
+#11     _microtaskLoop (dart:async/schedule_microtask.dart:41:21)
+#12     _startMicrotaskLoop (dart:async/schedule_microtask.dart:50:5)
+#13     _runPendingImmediateCallback (dart:isolate/runtime/libisolate_patch.dart:115:13)
+#14     _RawReceivePortImpl._handleMessage (dart:isolate/runtime/libisolate_patch.dart:172:5)
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel master, v1.1.5-pre.22, on Mac OS X 10.13.6 17G3025, locale zh-Hans-CN)
+    • Flutter version 1.1.5-pre.22 at /Users/zhangwei/Work/flutter
+    • Framework revision d05fa45fb2 (9 weeks ago), 2018-12-23 15:21:43 -0800
+    • Engine revision 215ca15600
+    • Dart version 2.2.0 (build 2.2.0-dev.1.1 f9ebf21297)
+
+[!] Android toolchain - develop for Android devices (Android SDK version 28.0.2)
+    • Android SDK at /Users/zhangwei/Library/Android/sdk
+    • Android NDK location not configured (optional; useful for native profiling support)
+    • Platform android-28, build-tools 28.0.2
+    • Java binary at: /Applications/Android Studio.app/Contents/jre/jdk/Contents/Home/bin/java
+    • Java version OpenJDK Runtime Environment (build 1.8.0_152-release-1024-b01)
+    ! Some Android licenses not accepted.  To resolve this, run: flutter doctor --android-licenses
+
+[✓] iOS toolchain - develop for iOS devices (Xcode 10.1)
+    • Xcode at /Applications/Xcode.app/Contents/Developer
+    • Xcode 10.1, Build version 10B61
+    • ios-deploy 2.0.0
+    • CocoaPods version 1.5.3
+
+[✓] Android Studio (version 3.1)
+    • Android Studio at /Applications/Android Studio.app/Contents
+    • Flutter plugin version 29.0.1
+    • Dart plugin version 173.4700
+    • Java version OpenJDK Runtime Environment (build 1.8.0_152-release-1024-b01)
+
+[!] VS Code (version 1.10.2)
+    • VS Code at /Applications/Visual Studio Code.app/Contents
+    ✗ Flutter extension not installed; install from
+      https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter
+
+[✓] Connected device (2 available)
+    • 张伟            • 022a08929e820dd2ae8edc37c12abd0126274379 • ios • iOS 12.1.4
+    • iPhone 7 Plus • A0683C83-2E13-427C-8870-4609BE902E22     • ios • iOS 11.4 (simulator)
+
+! Doctor found issues in 2 categories.
+```
